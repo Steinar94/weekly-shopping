@@ -1,5 +1,4 @@
 import json
-import tomli
 import random
 
 
@@ -11,10 +10,6 @@ class DinnerPlanner:
         self.recipe_file = recipe_file
         self.recipes = self.load_dinner_recipes()
 
-    def save_html_to_file(self, filename, html_content):
-        with open(filename, "w", encoding="utf-8") as file:
-            file.write(html_content)
-
     def load_dinner_recipes(self):
         try:
             with open(self.recipe_file, "r") as file:
@@ -22,11 +17,6 @@ class DinnerPlanner:
         except (json.JSONDecodeError, FileNotFoundError):
             recipes = {}
         return recipes
-
-    def load_email_credentials(self, config_file):
-        with open(config_file, "r") as file:
-            config_data = tomli.load(file)
-        return config_data.get("email", {})
 
     def save_dinner_recipes(self):
         with open(self.recipe_file, "w") as file:
