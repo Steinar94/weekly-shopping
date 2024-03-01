@@ -1,0 +1,15 @@
+[email_settings]
+server = "smtp.gmail.com"
+port = 587
+username = "your.gmail@gmail.com"
+password = "your-app-password"
+sender = "your.gmail@gmail.com"
+to = "example@email.com"
+from = "no-reply@gmail.com"
+recipients = [
+  { "email" = "example_email@example.com" },
+  { "email" = "another.email@example.com" },
+]
+
+[app_settings]
+debug = true

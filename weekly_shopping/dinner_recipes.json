@@ -1,0 +1,38 @@
+{
+  "pizza": {
+    "kj\u00f8ttdeig": 1,
+    "pizza bunn": 1,
+    "pizza saus": 1,
+    "ost": 1
+  },
+  "pasta di parma": {
+    "pasta di parma": 1
+  },
+  "taco": {
+    "kj\u00f8ttdeig": 1,
+    "lefse": 1,
+    "taco krydder": 1,
+    "salat til taco": 1,
+    "ost": 1
+  },
+  "blomk\u00e5lsuppe": {
+    "blomk\u00e5lsuppe": 1,
+    "blomk\u00e5l": 1
+  },
+  "lasagne": {
+    "kj\u00f8ttdeig": 1,
+    "lasagne plater": 1,
+    "tomat saus": 1
+  },
+  "Flyvende Jakob": {
+    "Kylling Fil\u00e9t": 3,
+    "Fl\u00f8te": 1,
+    "Bacon Terninger": 1,
+    "Chilli Saus": 1
+  },
+  "Spaghetti": {
+    "Spaghetti": 1,
+    "Kj\u00f8ttdeig": 1,
+    "Spaghetti Saus": 1
+  }
+}
