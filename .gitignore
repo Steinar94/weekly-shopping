@@ -1,6 +1,6 @@
 # Custom stuff
 .vscode/
-weekly_shopping/config.toml
+config.toml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
